@@ -1,2 +1,2 @@
 # InsiderThreatSimulation
-Python-based simulation of an insider threat analysis, mimicking DTEX, Splunk, Sentinel, and Purview to detect and investigate unauthorized sharing of sensitive data
+Simulates insider threat detection using Python to generate and analyze logs, mimicking DTEX, Splunk, Sentinel, and Purview workflows.
