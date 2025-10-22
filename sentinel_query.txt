@@ -1,1 +1,1 @@
-OfficeActivity | where FileName == "Client_NAS.zip" and Operation == "SharedExternally"
+OfficeActivity | where FileName == "Client_NAS.zip" and Operation == "SharedExternally" and TimeGenerated >= datetime(2025-10-22T02:00:00Z) and TimeGenerated < datetime(2025-10-22T03:00:00Z) and IPAddress startswith "172.16" | extend UserInfo = tostring(UserId) | project TimeGenerated, IPAddress, UserInfo

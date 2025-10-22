@@ -1,7 +1,7 @@
 # Simulation d'une Menace Interne
 
 ## Contexte
-Ce projet simule une analyse d'incident interne où un employé (`user123`) exfiltre `Client_NAS.zip` à 2h vers une IP externe (172.16.xxx.x). Il montre l'utilisation de DTEX, Splunk, Sentinel, et Purview.
+Ce projet simule une analyse d'incident interne où un employé (`user123`) exfiltre `Client_NAS.zip` à 2h vers une IP externe (172.16.xxx.x), détecté initialement par une alerte DLP de Purview. DTEX confirme une connexion via openvpn.exe. Il montre l'utilisation de Purview, Splunk, Sentinel, et DTEX.
 
 ## Structure
 - `data/` : Journaux fictifs (`fake_logs.csv`).
