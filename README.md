@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Simulation d'une Menace Interne
 
 ## Contexte
@@ -8,7 +7,3 @@ Ce projet simule une analyse d'incident interne où un employé (`user123`) tél
 - `data/` : Journaux fictifs (`fake_logs.csv`).
 - `scripts/` : Scripts Python (`generate_logs.py`, `test.py`).
 - `reports/` : Rapport final (en cours).
-=======
-# InsiderThreatSimulation
-Simulates insider threat detection using Python to generate and analyze logs, mimicking DTEX, Splunk, Sentinel, and Purview workflows.
->>>>>>> 10c4ad65082f24a27bd2d5179dcbbd153891838e
