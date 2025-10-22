@@ -1,0 +1,2 @@
+Rule: Auto-classify files with 9-digit NAS numbers as PII (Confidential).
+Violation: Sharing Client_NAS.zip to external domain (Gmail) detected, triggering DLP alert.
